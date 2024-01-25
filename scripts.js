@@ -26,10 +26,10 @@ var fontanna = L.marker([54.348542964212974, 18.653242702424325]).bindPopup("Fon
     gora    = L.marker([54.357859402986186, 18.640217190131484]).bindPopup("Góra Gradowa").openPopup(),
     muzeum   = L.marker([54.35605377698324, 18.660024777021633]).bindPopup("Muzem II Wojny Światowej").openPopup(),
     church   = L.marker([54.34991366652922, 18.653367534265776]).bindPopup("Bazylika Mariacka Wniebowzięcia Najświętszej Maryi Panny w Gdańsku").openPopup(),
-    church   = L.marker([54.3496885534003, 18.648066148059023]).bindPopup("Złota Brama").openPopup();
+    gate   = L.marker([54.3496885534003, 18.648066148059023]).bindPopup("Złota Brama").openPopup();
 
 
-var attraction = L.layerGroup([fontanna,most,gora,muzeum,church]);
+var attraction = L.layerGroup([fontanna,most,gora,muzeum,church,gate]);
 
 //wektor geojason
 
